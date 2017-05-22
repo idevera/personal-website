@@ -17,9 +17,17 @@ body, html {
 }
 
   /*Beginning greeting*/
+
+div#header-container {
+  display: none;
+}
+
 h1 {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.3);
+  font-size: 300%;
+  padding: 0.5em;
+  margin: 0;
   text-align: center;
   letter-spacing: 5px;
   font-size: 300%;
@@ -38,25 +46,42 @@ h1 {
 }
 
 /*Intro header*/
-#intro-title {
+h2#intro-title {
   font-weight: 100;
-  font-size: 300%;
+  font-size: 200%;
   text-align: center;
   padding: 40px;
+  letter-spacing: 2px;
 }
 
 #column-style {
   text-align: justify;
+  margin-bottom: 60px;
 }
 
 h3 {
   font-weight: 100;
 }
 
-/*Section column images*/
+#contact-container {
+  text-align: center;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px 20px 0px 20px;
+}
+
 img {
+  /*Section column images*/
   max-width: 100%;
-  height: auto;
 }
 .bg_img2 {
     /* The image used */
@@ -72,31 +97,28 @@ img {
     background-size: cover;
 }
 
-/*Second Title Styling*/
-#hobby-title {
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.3);
+#hobby-title-container {
   text-align: center;
-  letter-spacing: 5px;
-  font-size: 300%;
-  color: white;
-  padding: 0.5em;
-  position: absolute;
-  text-transform:
+  position: relative;
+  top: 35%;
 }
 
-/*h3 {
+
+h2#hobby-title {
+  /*Hobby Title Styling*/
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.3);
-  text-align: center;
   letter-spacing: 5px;
   font-size: 300%;
-  font-family: Arial, Arial, Helvetica, sans-serif;
   color: white;
   padding: 0.5em;
-  margin: 50px;
-  position: static;
-  top: 50%;
-  left: 50%;
-  width: auto;
-}*/
+  display: inline-block;
+  margin: 0;
+}
+
+div#photo-container-style {
+  margin-top: 10px;
+}
+div.col-md-3 {
+  padding: 10px;
+}
