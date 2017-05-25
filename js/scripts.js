@@ -1,3 +1,4 @@
+
   $(window).on('load', function() {
-    $("div#header-container").fadeIn(1000).removeClass('hidden');
+    $("div#header-container").fadeIn(2000).removeClass('hidden');
   });
