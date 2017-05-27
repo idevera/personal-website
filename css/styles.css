@@ -25,20 +25,17 @@ div#header-container {
 h1 {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.3);
-  font-size: 300%;
-  padding: 0.5em;
-  margin: 0;
-  text-align: center;
-  letter-spacing: 5px;
-  font-size: 300%;
-  color: white;
-  padding: 0.5em;
   position: absolute;
   top: 50%;
   left: 50%;
   width: auto;
   transform: translate(-50%, -50%);
-
+  padding: 0.5em;
+  margin: 0;
+  font-size: 300%;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
 }
 
 #intro-title-container {
@@ -47,42 +44,29 @@ h1 {
 
 /*Intro header*/
 h2#intro-title {
-  font-weight: 100;
+  padding: 40px;
+  font-weight: 300;
   font-size: 200%;
   text-align: center;
-  padding: 40px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 #column-style {
-  text-align: justify;
   margin-bottom: 60px;
+  line-height: 2;
+  font-size: 95%;
+  font-weight: 200;
 }
 
 h3 {
-  font-weight: 100;
-}
-
-#contact-container {
-  text-align: center;
-  width: 100%;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0px;
-  margin-top: 20px;
-}
-
-ul li {
-  display: inline-block;
-  padding: 20px 20px 0px 20px;
+  font-weight: 300;
 }
 
 img {
   /*Section column images*/
   max-width: 100%;
 }
+
 .bg_img2 {
     /* The image used */
     background-image: url("../img/me_photo2.jpg");
@@ -119,6 +103,46 @@ h2#hobby-title {
 div#photo-container-style {
   margin-top: 10px;
 }
-div.col-md-3 {
+/*div.col-md-3 {
   padding: 10px;
+}*/
+
+footer {
+  display: block;
+  background-color: #696969;
+  height: 120px;;
+}
+
+#contact-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+ul li a {
+  -webkit-transition: opacity .1s ease-in-out;
+  -moz-transition: opacity .1s ease-in-out;
+  -ms-transition: opacity .1s ease-in-out;
+  -o-transition: opacity .1s ease-in-out;
+  transition: opacity .1s ease-in-out;
+}
+
+.hover {
+  zoom: 1;
+  filter: alpha(opacity = 50);
+  opacity: 0.5;
+}
+
+#copyright {
+  text-align: center;
 }
