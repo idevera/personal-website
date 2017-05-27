@@ -109,8 +109,8 @@ div#photo-container-style {
 
 footer {
   display: block;
-  background-color: #696969;
-  height: 120px;;
+  background-color: #333333;
+  height: 120px;
 }
 
 #contact-container {
@@ -126,7 +126,8 @@ ul {
 
 ul li {
   display: inline-block;
-  padding: 20px;
+  padding: 20px 5px 20px 5px;
+  /*top right bottom left*/
 }
 
 ul li a {
@@ -145,4 +146,6 @@ ul li a {
 
 #copyright {
   text-align: center;
+  color: grey;
+  font-size: 80%;
 }
